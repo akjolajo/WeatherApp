@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/weatherAppFragment">
+
+    <fragment
+        android:id="@+id/weatherAppFragment"
+        android:name="kg.geektech.weatherapp.ui.weather.WeatherAppFragment"
+        android:label="fragment_weather_app"
+        tools:layout="@layout/fragment_weather_app" />
+    <fragment
+        android:id="@+id/weatherCityFragment"
+        android:name="kg.geektech.weatherapp.ui.weather.WeatherCityFragment"
+        android:label="fragment_weather_city"
+        tools:layout="@layout/fragment_weather_city" />
+</navigation>
