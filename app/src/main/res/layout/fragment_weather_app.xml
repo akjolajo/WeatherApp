@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:src="@drawable/picture"
         android:scaleX="1.1"
         android:layout_marginTop="-8dp"
         app:layout_constraintEnd_toEndOf="parent"
